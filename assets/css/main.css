@@ -1,3 +1,9 @@
 *{
   font-family: 'Lato', sans-serif;
 }
+.d-flex{
+  display: flex;
+}
+.c-gray{
+  color: #9B9B9B;
+}
