@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?85896165');
-  src: url('../font/fontello.eot?85896165#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?85896165') format('woff2'),
-       url('../font/fontello.woff?85896165') format('woff'),
-       url('../font/fontello.ttf?85896165') format('truetype'),
-       url('../font/fontello.svg?85896165#fontello') format('svg');
+  src: url('../font/fontello.eot?62421703');
+  src: url('../font/fontello.eot?62421703#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?62421703') format('woff2'),
+       url('../font/fontello.woff?62421703') format('woff'),
+       url('../font/fontello.ttf?62421703') format('truetype'),
+       url('../font/fontello.svg?62421703#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?85896165#fontello') format('svg');
+    src: url('../font/fontello.svg?62421703#fontello') format('svg');
   }
 }
 */
@@ -59,7 +59,7 @@
 .icon-search:before { content: '\e801'; } /* '' */
 .icon-mail:before { content: '\e802'; } /* '' */
 .icon-truck-black:before { content: '\e803'; } /* '' */
-.icon-bell:before { content: '\e804'; } /* '' */
+.icon-left-open-1:before { content: '\e804'; } /* '' */
 .icon-left-open:before { content: '\e805'; } /* '' */
 .icon-right-open:before { content: '\e806'; } /* '' */
 .icon-help:before { content: '\e807'; } /* '' */
@@ -72,6 +72,10 @@
 .icon-check:before { content: '\e80e'; } /* '' */
 .icon-cancel:before { content: '\e80f'; } /* '' */
 .icon-heart:before { content: '\e810'; } /* '' */
+.icon-up-open-1:before { content: '\e811'; } /* '' */
+.icon-plus:before { content: '\e812'; } /* '' */
+.icon-minus:before { content: '\e813'; } /* '' */
+.icon-menu:before { content: '\e814'; } /* '' */
 .icon-shop:before { content: '\e835'; } /* '' */
 .icon-pinterest:before { content: '\f0d3'; } /* '' */
 .icon-smile:before { content: '\f118'; } /* '' */
