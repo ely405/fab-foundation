@@ -1,3 +1,8 @@
 *{
   font-family: 'Lato', sans-serif;
 }
+
+/** RUTH **/
+.color-inherit {
+  color: inherit;
+}
