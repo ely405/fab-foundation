@@ -1,3 +1,11 @@
 *{
   font-family: 'Lato', sans-serif;
 }
+
+/*Header-nav*/
+a{
+  color: #494747;
+}
+#fab-nav{
+  background-color: #F2F2F2;
+}
