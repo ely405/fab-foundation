@@ -1,3 +1,38 @@
 *{
   font-family: 'Lato', sans-serif;
 }
+
+.carrusel {
+  margin-left: 7em;
+}
+
+.carrusel figure {
+  display: inline-block;
+}
+.orbit-figure {
+  width: 230px;
+  height: 230px;
+}
+
+.orbit-previous,.orbit-next {
+  color: #494949;
+  font-size: 2.3em;
+
+}
+.orbit-previous:hover, .orbit-next:hover, .orbit-previous:focus, .orbit-next:focus {
+  background-color: rgba(255, 255, 255, 0);
+  color: #c0c2c4;
+  outline: none;
+}
+
+.orbit-previous:active, .orbit-next:active {
+  background-color: rgba(255, 255, 255, 0);
+  color: #ff0000;
+}
+
+
+@media screen and (min-width: 64em)  {
+  .display-toggle {
+    display: inline-block;
+  }
+}
