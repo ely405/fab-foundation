@@ -45,9 +45,28 @@
   display: none;
 }
 
+footer a {
+  color: inherit;
+}
+
+footer a:hover {
+  color: #808080;
+}
+
+.foot-cont {
+  max-width: 100%;
+}
+
+.align-toggle {
+  justify-content: center;
+}
 
 @media screen and (min-width: 64em)  {
   .display-toggle {
     display: inline-block;
+  }
+
+  .align-toggle {
+    justify-content: flex-start;
   }
 }
