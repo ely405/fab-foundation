@@ -6,3 +6,32 @@
 .color-inherit {
   color: inherit;
 }
+
+.color-inherit:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.title {
+  width: 100%;
+}
+
+.display-toggle {
+  display: none;
+}
+
+@media screen and (min-width: 40em)  {
+  .display-toggle {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 64em)  {
+  .title-bar {
+    padding: 0.5rem 7rem;
+  }
+
+  .display-toggle {
+    display: inline-block;
+  }
+}
