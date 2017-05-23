@@ -42,7 +42,7 @@
                 <ul class="menu align-right">
                   <li class="show-for-large"><a href="#" class="c-gray">Fab Insider</a></li>
                   <li class="hide-for-small-only"><a href="#" class="pd-0 c-gray">Registry</a></li>
-                  <li><a href="#" class="pd-0"><i class="icon-shop c-gray"></i></a></li>
+                  <li><a href="#" class="pd-0"><i class="icon-shop c-gray" data-toggle="offCanvasRightSplit2" ></i></a></li>
                   <li class="hide-for-small-only"><a href="#" class="pd-0 c-gray">Login</a></li>
                 </ul>
               </div>
@@ -592,6 +592,84 @@
         </div>
       </section>
     </section>
+    <div class="row">
+    <div class="medium-10 columns">
+      <div class="off-canvas-wrapper">
+        <div class="off-canvas position-right" id="offCanvasRightSplit2" data-off-canvas data-transition="overlap">
+
+          <aside id="bag-cart">
+            <header id="header-cart" class="bg-black">
+              <div class="row">
+                <div class="columns small-1">
+                  <a href="#" class="icon-right-open c-white"></a>
+                </div>
+                <div class="columns small-5 small-offset-3">
+                  <span class="c-white f-size-24">My bag</span>
+                </div>
+              </div>
+            </header>
+            <section class="bg-gray">
+              <i class="icon-truck-black"></i><span class="f-size-12"> Your Fab products are eligible for FREE SHIPPING*</span>
+            </section>
+            <section class="main-cart">
+              <div class="row">
+                <div class="columns small-4">
+                  <a href="#"><img src="assets/img/529879-236x236-1493233549-primary.png" alt="" id="product-image"></a>
+                </div>
+                <div class="columns small-6">
+                  <div class="row align-justify">
+                    <span id="product-name">home</span>
+                    <a href="#"><i class="icon-trash"></i></a>
+                  </div>
+                  <div class="row align-justify">
+                    <div class="columns small-7">
+                      <select id="product-cant">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                      </select>
+                    </div>
+                    <span id="product-price">$20</span>
+                  </div>
+                </div>
+                <p class="f-size-12">Estimated Arrival: <span class="c-green">20jun - 4 jul</span></p>
+              </div>
+              <hr>
+            </section>
+            <footer id="footer-cart">
+              <ul class="accordion bg-gray" data-accordion data-deep-link-smudge="500" id="deeplinked-accordion" data-allow-all-closed="true">
+                <li class="accordion-item is-active" data-accordion-item>
+                  <div data-tab-content class="accordion-content bg-gray" id="deeplink1">
+                    <div class="row">
+                      <div class="columns small-10 f-size-12">Subtotal</div>
+                      <div class="columns small-1 f-size-12">$$$</div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                      <div class="columns small-10 f-size-12">Estimated Shipping Fee</div>
+                      <div class="columns small-1 f-size-12">$$$</div>
+                    </div>
+                  </div>
+                  <a href="#deeplink1" class="accordion-title align-justify flex-container">Order Summary<i class="icon-up-open-1"></i></a>
+                </li>
+                <li class="accordion-item">
+                  <div href="#" class="accordion-title">Total</div>
+                  <div class="accordion-content" data-tab-content>
+                  </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                  <a href="#" class="accordion-title"><button type="button" class="button expanded bg-black">Checkout<i class="icon-right-open"></i></button></a>
+                  <div class="accordion-content" data-tab-content id="deeplink3">
+                  </li>
+                </ul>
+              </footer>
+            </aside>
+          </div>
+
+        </div>
+      </div>
+    </div>
     <footer>
       <section id="foot-nav">
         <ul class="menu row align-toggle">
@@ -669,4 +747,4 @@
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
   </body>
-</html>
+  </html>
