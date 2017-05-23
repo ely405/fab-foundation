@@ -134,3 +134,37 @@ a.accordion-title:before{
 .extra-padding{
   padding: 1.3rem 1rem;
 }
+/*.d-flex{
+  display: flex;
+}*/
+.c-gray{
+  color: #9B9B9B;
+}
+.bg-gray{
+  background-color: #9B9B9B;
+}
+.pd-0{
+  padding: 0 !important;
+}
+.p-abs{
+  position: absolute;
+}
+.p-lf-32{
+  padding-left: 2rem;
+}
+#logo{
+    height: 25px;
+    width: 64px;
+}
+
+@media (max-width: 1023px) and (min-width: 601px){
+  #logo {
+    height: 33px;
+    width: 84px;
+  }
+}
+@media (min-width: 1024px){
+  #logo{
+    height: 39px;
+    width: 99px;
+  }
