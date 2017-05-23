@@ -94,4 +94,43 @@ footer a:hover {
   .display-toggle {
     display: inline-block;
   }
+
+/*Header-nav*/
+a{
+  color: #494747;
+}
+nav li,
+.color-grey,
+.off-canvas {
+  background-color: #F2F2F2;
+}
+a.accordion-title.noplus:before{
+  content: none;
+}
+a.accordion-title:before{
+  color: #000;
+  font-size: 1.5rem;
+}
+.li-unstyle{
+  list-style: none;
+}
+.categories,
+.categories:focus,
+.categories:hover{
+  color: #000;
+  font-size: 0.9rem;
+}
+.subcategories{
+  font-size: 0.8rem;
+}
+.accordion-title{
+  padding: 0.9rem 1rem;
+  border: 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+.accordion-content{
+  border: 0;
+}
+.extra-padding{
+  padding: 1.3rem 1rem;
 }
