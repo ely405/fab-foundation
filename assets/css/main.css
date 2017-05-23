@@ -41,9 +41,24 @@
   color: #ff0000;
 }
 
+.color-inherit {
+  color: inherit;
+}
+
+.color-inherit:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.title {
+  width: 100%;
+
+}
+
 .display-toggle {
   display: none;
 }
+
 
 footer a {
   color: inherit;
@@ -68,5 +83,15 @@ footer a:hover {
 
   .align-toggle {
     justify-content: flex-start;
+  }
+
+  .title-bar {
+    padding: 0.5rem 7rem;
+  }
+}
+
+@media screen and (min-width: 40em)  {
+  .display-toggle {
+    display: inline-block;
   }
 }
