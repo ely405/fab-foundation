@@ -1,13 +1,29 @@
 
 /*Product*/
-#product li{
-  width: 3em;
-  height: 3em;
+#polo-gato:hover{
+  background-image: url(../);
 }
+#polo-flor:hover{
+background-image:
+}
+#polo-rayas:hover{
+background-image:
+}
+#polo-mosaico:hover{
+back
+}
+#polo-manchas:hover{
 
-#product img{
-  width: 100%;
-  height: 100%;
-  padding: 2px;
-  margin: 2px;
+}
+#bvd-manchas:hover{
+
+}
+#polo-negro:hover{
+
+}
+#bvd-negro:hover{
+
+}
+#polo-botanico:hover{
+
 }
